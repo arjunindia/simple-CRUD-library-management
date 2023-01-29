@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@formkit/auto-animate': 1.0.0-beta.6
   '@sveltejs/vite-plugin-svelte': ^2.0.0
   chota: ^0.8.1
   gh-pages: ^5.0.0
@@ -9,6 +10,7 @@ specifiers:
   vite: ^4.0.0
 
 dependencies:
+  '@formkit/auto-animate': 1.0.0-beta.6
   chota: 0.8.1
   svelte-chota: 1.8.6
 
@@ -217,6 +219,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@formkit/auto-animate/1.0.0-beta.6:
+    resolution: {integrity: sha512-PVDhLAlr+B4Xb7e+1wozBUWmXa6BFU8xUPR/W/E+TsQhPS1qkAdAsJ25keEnFrcePSnXHrOsh3tiFbEToOzV9w==}
+    dev: false
 
   /@jridgewell/sourcemap-codec/1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}

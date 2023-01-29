@@ -1,5 +1,6 @@
 <script>
   import "chota";
+  import autoAnimate from '@formkit/auto-animate';
   // @ts-ignore
   import { Container, Input, Button, Row, Col,Modal,Card } from "svelte-chota";
   import { onMount } from "svelte";
@@ -86,7 +87,7 @@
               <th>Action</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody use:autoAnimate={{duration:200,easing:"ease-in"}}>
             {#each $library as book, i }
               <tr>
                 <td>{book.isbn}</td>
